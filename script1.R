@@ -4,7 +4,7 @@
 x = "a"
 x <- "a"
 "a" -> x
-
+c
 #vectors: 
 # - one or more elements
 # - one data type
@@ -50,7 +50,7 @@ print(test2)
 test2[1:2,"James"]
 
 #basic plotting
-
+plot(x=1:10,y=10:1)
 plot(m2)
 
 #if the columns were not named:
@@ -76,5 +76,9 @@ ggplot(data=sdat, aes(x=Injuries, y=Time, color=Region))+
 sdat$Region <- factor(sdat$Region, levels=c("Australia", "Middle.East","Africa", "Asia",  
 																						"C.America","N.America","S.America", "Europe"))
 
-ggplot(data=sdat, aes(x=Injuries, y=Time, color=Region))+
-	geom_point()
+ggplot(data=sdat, aes(x=Injuries, y=Time, label=Team))+
+	stat_smooth()+
+	geom_point()+ 
+	geom_text()+
+	ggtitle("Number of injuries vs time spent writhing on the ground")
+	
