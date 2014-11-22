@@ -1,0 +1,41 @@
+library("VennDiagram", lib.loc="/Library/Frameworks/R.framework/Versions/2.15/Resources/library")
+ven = "/Users/samhiggins2001_worldperks/tprog/tdata/venn_sample.tiff"
+venn.diagram(list(A = 1:150, B = 121:170), ven)
+source("http://bioconductor.org/biocLite.R")
+biocLite("rBiopaxParser")
+source("/Users/samhiggins2001_worldperks/tprog/main_130525/InitiateDataStructures.R")
+load("/Users/samhiggins2001_worldperks/tprog/distribution/pathLayerDistributionVersion2/packageDir/data/defaultSummaryTable140504.rd")
+load("/Users/samhiggins2001_worldperks/tprog/distribution/pathLayerDistributionVersion2/packageDir/data/defaultSummaryTable140504.rd", verbose=T)
+loadedNamespaces()
+? load
+help(aggregate)
+install.packages("RPostgreSQL", dependencies=TRUE)
+install.packages("DBI", dependencies=TRUE, repos= "http://cran.us.r-project.org")
+test=1
+test
+test1 = 1
+test1 + 2
+getwd()
+setwd("prog/R_vis_examples/r_data_vis_lecture_ex_scripts/")
+dir()
+v0 = 1:4
+v0
+class(x)
+class(x)
+class(v0)
+is.vector(x)
+is.vector(v0)
+length(v0)
+class(v0);
+class(v0); length(v0);
+names(v1)<-c('a',’Bob','c','d','e')
+names(v1)<-c('a','Bob','c','d','e')
+x = "a"
+x = "a"
+x <- "a"
+x = "a"
+x = "a"
+x
+source("./script1.R")
+?c
+?c
